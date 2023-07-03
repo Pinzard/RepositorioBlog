@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+.caja-add {
+  background-color: rgb(131, 172, 216);
+
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: "Playlist-Script.ttf";
+}
+
+.añadir-entrada {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.añadir-entrada input[type="file"] {
+  flex: 1;
+  background-color: rgba(233, 75, 89, 1);
+  border: 1px solid #f48fb1;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.añadir-entrada button {
+  background-color: rgba(233, 75, 89, 1);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}

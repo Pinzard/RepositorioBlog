@@ -1,0 +1,92 @@
+.caja-entera {
+  background-color: rgb(131, 172, 216);
+
+  width: 500px;
+  margin: 0 auto;
+}
+
+.post-content {
+  margin: 20px;
+  padding: 10px;
+  max-width: 1200px;
+  height: auto;
+  max-height: 100%;
+  overflow: hidden;
+  background-color: #e4f6f8;
+  border: 2px solid #e0e0e0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+  text-align: justify;
+  text-align-last: left;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.post-content p {
+  text-indent: 4em;
+}
+
+textarea.edit-mode {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.form-control.edit-mode {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+}
+.file-input {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  cursor: pointer;
+  font-size: 0.5;
+}
+
+.link-full-width {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 440px) {
+  .post-content {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #e4f6f8;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+    text-align: justify;
+    text-align-last: left;
+    overflow: auto;
+  }
+
+  .post-content p {
+    text-indent: 0;
+  }
+}

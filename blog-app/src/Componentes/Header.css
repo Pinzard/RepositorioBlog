@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "NombreDeLaFuente";
+  src: url("../assets/fonts/Playlist-Script.ttf.woff") format("woff");
+}
+
+.text-center {
+  color: white;
+}
+
+.contenedor-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 25em;
+}
+
+.titulo {
+  margin-top: 10px;
+  width: fit-content;
+  font-family: "Playlist-Script.ttf";
+
+  font-weight: bold;
+  font-size: 6em;
+}
+
+@media only screen and (max-width: 1240px) {
+  .contenedor-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 20em;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .contenedor-header {
+    height: 15em;
+    overflow: hidden;
+  }
+
+  .contenedor-header img {
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 50%);
+    width: 100%;
+    height: auto;
+  }
+
+  .titulo {
+    font-size: 4em;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .contenedor-header {
+    height: 10em;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .titulo {
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container-fluid {
+    width: 100%;
+  }
+}

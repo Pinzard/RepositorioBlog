@@ -1,0 +1,19 @@
+/* .App {
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+}
+
+.App main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(117, 81, 81);
+}
+ */
+
+
+@font-face {
+  font-family: 'NombreDeLaFuente';
+  src: 
+       url('../assets/fonts/Playlist-Script.ttf.woff') format('woff');
+}
+
